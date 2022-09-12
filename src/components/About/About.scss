@@ -1,0 +1,19 @@
+.about{
+    .right{
+        .heading{
+            text-align: center;
+        }
+        p{
+            margin-top: 1rem;
+            font-size: 1rem;
+        }
+        .popup{
+            margin-top: 1rem;
+            float: right;
+            padding: 1rem;
+            border-radius: 2rem 0 0 2rem ;
+            width: 50%;
+            box-shadow: 2px 2px 4px 1px;
+        }
+    }
+}
