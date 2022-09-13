@@ -6,9 +6,9 @@ import {
   Project5,
   Project6,
   Project7,
-} from "../constant/images";
+} from "../constants/images";
 
-export const ProjectInfo = [
+export const projectInfo = [
   {
     id: 1,
     title: "Html/Css Ecommerce Website",

@@ -1,4 +1,11 @@
 .about{
+    padding: 2rem;
+
+    .left{
+        img{
+            padding: 3rem;
+        }
+    }
     .right{
         .heading{
             text-align: center;
@@ -8,7 +15,7 @@
             font-size: 1rem;
         }
         .popup{
-            margin-top: 1rem;
+            margin-top: 2rem;
             float: right;
             padding: 1rem;
             border-radius: 2rem 0 0 2rem ;

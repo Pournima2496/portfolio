@@ -1,4 +1,6 @@
 import "./Navbar.scss";
+import "../../darkTheme.scss"
+
 import { FaTimes } from "react-icons/fa";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { useState } from "react";
@@ -20,7 +22,7 @@ const Navbar = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
