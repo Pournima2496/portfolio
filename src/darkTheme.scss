@@ -1,5 +1,4 @@
-.dark {
-  overflow: hidden;
+.app.dark {
   background: rgb(6, 2, 32);
   color: beige;
 
@@ -8,59 +7,67 @@
     align-items: center;
     justify-content: center;
     height: 80vh;
-    // margin-top: 5rem;
     padding: 0 2rem;
     width: 100%;
 
-    .left {
-      padding: 2rem;
-      flex: 1;
-    }
     .right {
-      padding: 2rem;
-      flex: 1;
-    }
-
-    .heading {
-      color: red;
-      font-size: 2.5rem;
-    }
-
-    .btn {
-      margin-right: 0.5rem;
-      background: red;
-      border: none;
-      border-radius: 2rem;
-      padding: 10px 15px;
-      font-size: 16px;
-      cursor: pointer;
-      a {
-        color: #fff;
-        text-decoration: none;
+      .popup {
+        border: 1px solid blueviolet;
+        box-shadow: 2px 2px 4px 1px gray;
       }
 
-      &:hover {
-        background: blue;
-        transition: 0.5s;
+      form {
+        border: 1px solid blueviolet;
+        box-shadow: 2px 2px 4px 1px gray;
+      }
+    }
+  }
+
+  .projects {
+    .cards {
+      .card {
+        box-shadow: 0 0 5px 1px blueviolet;
+      }
+    }
+  }
+
+  .project {
+    .modal {
+      .top {
+        .title {
+          color: #111;
+        }
+      }
+
+      .bottom {
+        p {
+          color: #111;
+        }
       }
     }
   }
   .navbar {
     background: #111;
 
-    .n-right{
-        .list{
-            li{
-                a{
-                    color: #fff;
-                }
+    .n-right {
+      .list {
+        li {
+          a {
+            color: #fff;
+
+            &:hover {
+              color: red;
             }
+          }
         }
+      }
     }
   }
-
-  
+  .footer{
+    background: #000;
+  }
 }
+
 
 @media screen and (max-width: 768px) {
   .dark {
@@ -77,50 +84,23 @@
     }
   }
 }
-@media screen and (max-width:425px) {
-  .dark{
-    .container{
-      // margin-top: 2rem;
+@media screen and (max-width: 425px) {
+  .dark {
+    .container {
       display: block;
       height: auto;
       padding: 0;
       text-align: center;
 
-      .left, .right{
-        padding:1.5rem;
+      .left,
+      .right {
+        padding: 1.5rem;
       }
 
-      .heading{
+      .heading {
         margin-top: 1rem;
         font-size: 2rem;
       }
     }
   }
-
-  .projects{
-    .cards{
-      .card{
-      box-shadow: 3px 7px 14px -9px red;
-      }
-    }
-  }
-
-  .project{
-    .modal{
-      .top{
-        .title{
-          color: #111;
-        }
-      }
-
-      .bottom{
-        p{
-          color: #111;
-
-        }
-      }
-    }
-  }
-  
 }
-

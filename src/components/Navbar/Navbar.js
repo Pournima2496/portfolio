@@ -5,19 +5,24 @@ import { MdDarkMode } from "react-icons/md";
 
 import { FaTimes } from "react-icons/fa";
 import { HiMenuAlt2 } from "react-icons/hi";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { DarkModeContext } from "../../context/context";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const theme = useContext(DarkModeContext);
+  const handleClick = () =>{
+    theme.dispatch({type:"toggleTheme"})
+  }
 
   return (
     <div className="navbar">
       <div className="n-left">
         <div className="logo">Pournima</div>
         <div className="icons">
-          <BsBrightnessHigh className="i" style={{color:"red"}}/>
-          <MdDarkMode className="i" style={{color:"#111"}} />
-          <button></button>
+          <BsBrightnessHigh className="i" />
+          <MdDarkMode className="i"  />
+          <button onClick={handleClick} style={{left: theme.state.darkMode ? 0 : 25, transition: "all .3s"}}></button>
         </div>
       </div>
       <div className="n-right">

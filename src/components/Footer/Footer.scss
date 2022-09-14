@@ -1,0 +1,59 @@
+.footer{
+    margin-top: 2rem;
+    background: rgb(240, 232, 232);
+.f-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  .f-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .location,
+    .phone,
+    .email {
+      padding: 10px;
+      margin: 5px;
+      border-radius: 5px;
+      width: 50%;
+      cursor: pointer;
+
+      .icons {
+        margin-right: 1rem;
+        font-size: 20px;
+      }
+
+      span {
+        font-size: 18px;
+      }
+    }
+  }
+  .f-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    p{
+        margin-top: 1rem;
+    }
+    .icons {
+        margin-right: 1rem;
+        font-size: 2rem;
+        margin-top: 1rem;
+        cursor: pointer;
+      }
+  }
+}
+.copy{
+    padding: 1rem;
+    border-top: 1px solid #333;
+    text-align: center;
+}
+}
+
