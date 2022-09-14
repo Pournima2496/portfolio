@@ -1,4 +1,5 @@
 .home {
+  margin-top: 6rem;
   .left {
     h1 {
         padding-left: 1rem;
@@ -11,5 +12,19 @@
         height: 100%;
         border-radius: 1rem;
     }
+  }
+}
+
+@media screen and (max-width:425px) {
+  .home{
+    .left{
+      h1{
+        font-size: 2rem;
+      }
+    }
+    .right{
+      width: 100%;
+    }
+
   }
 }

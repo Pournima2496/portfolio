@@ -7,7 +7,8 @@ const Home = () => {
       <div className="left">
         <h1>
           Hi,
-          <br /> I am Pournima Gaikwad
+          I am 
+          <br className="break" /> Pournima Gaikwad
         </h1>
         <h1 className="heading">Frontend Developer</h1>
         <br />

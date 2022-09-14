@@ -1,5 +1,7 @@
 import "./Navbar.scss";
-import "../../darkTheme.scss"
+import "../../darkTheme.scss";
+import { BsBrightnessHigh } from "react-icons/bs";
+import { MdDarkMode } from "react-icons/md";
 
 import { FaTimes } from "react-icons/fa";
 import { HiMenuAlt2 } from "react-icons/hi";
@@ -12,9 +14,17 @@ const Navbar = () => {
     <div className="navbar">
       <div className="n-left">
         <div className="logo">Pournima</div>
+        <div className="icons">
+          <BsBrightnessHigh className="i" style={{color:"red"}}/>
+          <MdDarkMode className="i" style={{color:"#111"}} />
+          <button></button>
+        </div>
       </div>
       <div className="n-right">
-        <ul className={toggleMenu ? "mobile-list" : "list"} onClick={()=>setToggleMenu(false)}>
+        <ul
+          className={toggleMenu ? "mobile-list" : "list"}
+          onClick={() => setToggleMenu(false)}
+        >
           <li>
             <a href="#">Home</a>
           </li>

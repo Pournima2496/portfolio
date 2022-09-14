@@ -1,4 +1,5 @@
 import "./Project.scss";
+import "../../darkTheme.scss"
 
 const Project = ({ closeModal, img, title, date, d_links, g_links, desc }) => {
   return (
