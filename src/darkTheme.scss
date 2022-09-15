@@ -3,13 +3,7 @@
   color: beige;
 
   .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    padding: 0 2rem;
-    width: 100%;
-
+    
     .right {
       .popup {
         border: 1px solid blueviolet;
@@ -63,11 +57,16 @@
       }
     }
   }
-  .footer{
+  .footer {
     background: #000;
+
+    .f-right{
+      a{
+        color: #fff;
+      }
+    }
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .dark {

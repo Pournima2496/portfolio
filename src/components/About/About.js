@@ -10,12 +10,7 @@ const About = () => {
       <div className="right">
         <h1 className="heading">About Me</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid vero
-          ipsam mollitia magnam itaque iure cupiditate veniam tenetur asperiores
-          quidem, fugit aut laborum suscipit aperiam neque saepe, omnis quod
-          facere numquam. Iusto beatae optio dolorem facilis accusantium nam
-          quos est corporis, odit quia reprehenderit quam. Dicta blanditiis
-          officiis esse suscipit.
+        Seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings. To get an opportunity where I can make the best of my potential and contribute to the organization’s growth.
         </p>
 
         <div className="popup">

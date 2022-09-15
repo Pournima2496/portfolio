@@ -1,7 +1,5 @@
 import "./Navbar.scss";
 import "../../darkTheme.scss";
-import { BsBrightnessHigh } from "react-icons/bs";
-import { MdDarkMode } from "react-icons/md";
 
 import { FaTimes } from "react-icons/fa";
 import { HiMenuAlt2 } from "react-icons/hi";
@@ -20,8 +18,6 @@ const Navbar = () => {
       <div className="n-left">
         <div className="logo">Pournima</div>
         <div className="icons">
-          <BsBrightnessHigh className="i" />
-          <MdDarkMode className="i"  />
           <button onClick={handleClick} style={{left: theme.state.darkMode ? 0 : 25, transition: "all .3s"}}></button>
         </div>
       </div>

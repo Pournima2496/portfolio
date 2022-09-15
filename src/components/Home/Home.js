@@ -1,5 +1,5 @@
 import "./Home.scss";
-import { BG } from "../../constants/images";
+import { BG, Resume } from "../../constants/images";
 
 const Home = () => {
   return (
@@ -12,11 +12,11 @@ const Home = () => {
         </h1>
         <h1 className="heading">Frontend Developer</h1>
         <br />
-        <button className="btn">
-          <a href="">Download CV</a>
+        <button className="btn" >
+          <a href={Resume} target="_blank" rel="noreferrer" >Download CV</a>
         </button>
         <button className="btn">
-          <a href="">Contact Me</a>
+          <a href="#contact">Contact Me</a>
         </button>
       </div>
       <div className="right">

@@ -1,6 +1,6 @@
 .footer{
     margin-top: 2rem;
-    background: rgb(240, 232, 232);
+    background: rgb(255, 255, 225);
 .f-container {
   display: flex;
   align-items: center;
@@ -19,7 +19,7 @@
       padding: 10px;
       margin: 5px;
       border-radius: 5px;
-      width: 50%;
+      width: 80%;
       cursor: pointer;
 
       .icons {
@@ -42,6 +42,13 @@
     p{
         margin-top: 1rem;
     }
+    a{
+      color: black;
+
+      &:hover{
+        color: tomato;
+      }
+    }
     .icons {
         margin-right: 1rem;
         font-size: 2rem;
@@ -57,3 +64,28 @@
 }
 }
 
+@media screen and (max-width:768px) {
+  .f-container{
+   .f-left{
+    width: 80%;
+    margin-right: 1rem;
+  }
+  .f-right{
+    margin-top: 1rem;
+  }
+}
+}
+
+@media screen and (max-width:425px) {
+  .f-container{
+    justify-content: center;
+    flex-direction: column;
+
+   .f-left{
+    width: 100%;
+  }
+  .f-right{
+    margin-top: 1rem;
+  }
+}
+}

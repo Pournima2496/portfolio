@@ -7,6 +7,7 @@ import Project5 from "../assets/Project5.png";
 import Project6 from "../assets/Project6.png";
 import Project7 from "../assets/Project7.png";
 import Skills from "../assets/skills.png";
+import Resume from "../assets/Pournima Resume.pdf" 
 
 export {
   BG,
@@ -18,4 +19,5 @@ export {
   Project6,
   Project7,
   Skills,
+  Resume
 };
