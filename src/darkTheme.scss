@@ -67,39 +67,3 @@
     }
   }
 }
-
-@media screen and (max-width: 768px) {
-  .dark {
-    scroll-behavior: smooth;
-
-    .container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      height: 100vh;
-      padding: 5rem 2rem;
-      width: 100%;
-    }
-  }
-}
-@media screen and (max-width: 425px) {
-  .dark {
-    .container {
-      display: block;
-      height: auto;
-      padding: 0;
-      text-align: center;
-
-      .left,
-      .right {
-        padding: 1.5rem;
-      }
-
-      .heading {
-        margin-top: 1rem;
-        font-size: 2rem;
-      }
-    }
-  }
-}

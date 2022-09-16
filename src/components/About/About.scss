@@ -1,5 +1,4 @@
 .about{
-    // padding: 2rem;
     .left{
         padding: 1rem;
         width: 100%;
@@ -28,6 +27,16 @@
     }
 }
 
+@media screen and (max-width:960px) {
+    .about{
+        .right{
+            .popup{
+                width: 80%;
+            }
+        }
+    }
+}
+
 @media screen and (max-width:425px) {
     .about{
         height: 100%;
@@ -49,3 +58,14 @@
 
     }
 }
+
+@media screen and (max-width:320px) {
+    .about{
+        position: relative;
+        .left{
+            position: absolute;
+            top: 30rem;
+            left: 0;
+        }
+    }
+  }

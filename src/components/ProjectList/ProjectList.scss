@@ -55,6 +55,13 @@
     }
   }
 }
+
+@media screen and (max-width:960px) {
+  .projects{
+    padding: 1rem;
+  }
+}
+
 @media screen and (max-width:768px) {
   .projects{
     padding: 1rem 0;
@@ -98,5 +105,11 @@
       }
      }
 
+  }
+}
+
+@media screen and (max-width:320px) {
+  .projects{
+    margin-top: 250%;
   }
 }
