@@ -13,6 +13,19 @@
       form {
         border: 1px solid blueviolet;
         box-shadow: 2px 2px 4px 1px gray;
+
+        input, textarea{
+          background: transparent;
+          color: white;
+        }
+
+        .btn-1{
+          border: 1px solid blue;
+
+          &:hover{
+            background: blue;
+          }
+        }
       }
     }
   }

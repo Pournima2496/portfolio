@@ -33,11 +33,11 @@ const Footer = () => {
             knowledge where I used whatever I learned about react and styling. I
             hope you like it.
 
-            <div style={{margin:" 1rem 2rem", fontSize:"18px"}}>
-            - Creative and responsive desing using sass.
+            <span>
             <br />
-            - Using react hooks and features.
-            </div>
+              - Creative and responsive desing using sass.
+              <br />- Using react hooks and features.
+            </span>
             <br />
           </p>
           <div>
